@@ -1,0 +1,11 @@
+version: "1"
+
+
+services:
+  app1:
+    image: "myapp:2.0"
+    container_name: "testDockerAuth"
+    build:
+      ./
+    ports:
+      - '8080'
